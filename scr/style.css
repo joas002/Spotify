@@ -62,7 +62,7 @@ header {
 
 header nav {
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 10%;
 }
 
@@ -204,7 +204,7 @@ footer {
 .links-column h3 {
     color: #919496;
     margin-bottom: 42px;
-        font-size: 22px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 
@@ -212,51 +212,52 @@ footer {
     float: right;
 }
 
-#footer-social ul li{
+#footer-social ul li {
     display: inline-block;
 }
-.social-icon{
+
+.social-icon {
     background-color: #222326;
     border-radius: 50%;
     padding: 12px;
     margin-right: auto 6px;
 }
 
-.social-icon svg{
+.social-icon svg {
     cursor: pointer;
     height: 28px;
     width: 28px;
     fill: #fff;
 }
 
-.social-icon svg:hover{
+.social-icon svg:hover {
     fill: #1ed760;
-    }
-    
-    /*Footer Inferior*/
-    #bottom-footer {
-        font-family: "Gotham Light";
-        margin-top: 80px;
-    }
-    
-    #legal-links {
-        float: left;
-    }
-    
-    #legal-links a {
-        color: #919496;
-        margin: 0 10px;
-        font-weight: 600;
-        font-size: 11px;
-    }
-    
-    #legal-links a:hover,
-    #copyright a:hover {
-        color: #1ed760;
-    }
-    
-    #copyright {
-        float: right;
+}
+
+/*Footer Inferior*/
+#bottom-footer {
+    font-family: "Gotham Light";
+    margin-top: 80px;
+}
+
+#legal-links {
+    float: left;
+}
+
+#legal-links a {
+    color: #919496;
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+#legal-links a:hover,
+#copyright a:hover {
+    color: #1ed760;
+}
+
+#copyright {
+    float: right;
 }
 
 #copyright a {
@@ -267,3 +268,27 @@ footer {
     font-size: 11px;
     color: #919496;
 }
+
+/*Melhorias Cabeçalho*/
+
+header nav span {
+    color: #fff;
+}
+
+header nav img {
+    border-radius: 50%;
+    width: 42px;
+    vertical-align: middle;
+    margin: auto 10px;
+}
+
+header nav svg {
+    fill: #fff;
+    height: 12px;
+    padding-left: 5px ;
+}
+
+header nav ul li:hover svg{
+    fill: #1ed760;
+}
+
