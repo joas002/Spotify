@@ -32,7 +32,23 @@
                 <a href="">
                     <li>Baixar</li>
                 </a>
-                <!--<span>|</span>-->
+                <span>|</span>
+                <a id="dropdown-button" onclick="dropdownProfileMenu()">
+                    <li>
+                        <img src="../assets/images/stock-user.jpeg" alt="Imagem do Usuário">Perfil<svg
+                            viewBox="0 0 1024 1024" class="svelte-13ynk3t">
+                            <path
+                                d="M476.455 806.696L95.291 425.532Q80.67 410.911 80.67 390.239t14.621-34.789 35.293-14.117 34.789 14.117L508.219 698.8l349.4-349.4q14.621-14.117 35.293-14.117t34.789 14.117 14.117 34.789-14.117 34.789L546.537 800.142q-19.159 19.159-38.318 19.159t-31.764-12.605z">
+                            </path>
+                        </svg>
+                    </li>
+                </a>
+                <div id="profile-dropdown">
+                    <ul>
+                        <a href=""><li>Conta</li></a>
+                        <a href=""><li>Sair</li></a>
+                    </ul>
+                </div>
             </ul>
         </nav>
     </header>
@@ -92,9 +108,11 @@
                             <a href="">
                                 <li>Publicidade</li>
                             </a>
-                            <a href=""><li>Investidores</li>
+                            <a href="">
+                                <li>Investidores</li>
                             </a>
-                            <a href=""><li>Fornecedores</li>
+                            <a href="">
+                                <li>Fornecedores</li>
                             </a>
                         </ul>
                     </div>
@@ -163,6 +181,7 @@
             </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
