@@ -33,7 +33,7 @@
                     <li>Baixar</li>
                 </a>
                 <span>|</span>
-                <a href="dropdown-button">
+                <a id="dropdown-button" onclick="dropdownProfileMenu()">
                     <li>
                         <img src="../assets/images/stock-user.jpeg" alt="Imagem do Usuário">Perfil<svg
                             viewBox="0 0 1024 1024" class="svelte-13ynk3t">
@@ -43,6 +43,12 @@
                         </svg>
                     </li>
                 </a>
+                <div id="profile-dropdown">
+                    <ul>
+                        <a href=""><li>Conta</li></a>
+                        <a href=""><li>Sair</li></a>
+                    </ul>
+                </div>
             </ul>
         </nav>
     </header>
@@ -175,6 +181,7 @@
             </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>

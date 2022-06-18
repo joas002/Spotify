@@ -292,3 +292,35 @@ header nav ul li:hover svg{
     fill: #1ed760;
 }
 
+/*Div que vai aparecer quando o usuário clicar no perfil*/
+
+#profile-dropdown{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: #fff;
+    min-width: 160px;
+    border-radius: 2px;
+    box-shadow: 0 8px 16px 0 rgba(#000, #000, #000, 2);
+    display: none;
+}
+
+#profile-dropdown li{
+    display: block;
+    color: #565656;
+    padding: 12px 0;
+    margin-left: 16px;
+}
+
+#profile-dropdown a:first-of-type li{
+    color: #000;
+}
+
+#profile-dropdown a li:hover{
+    color:#1ed760;
+}
+
+.show{
+    display: block!important;
+    
+}
