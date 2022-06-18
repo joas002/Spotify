@@ -10,11 +10,12 @@
     src: url(../assets/fonts/GothamLight.ttf);
 }
 
-/*Setando COnfigurações Globais*/
+/*Setando Configurações Globais*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-family: "gotham", sans-serif;
 }
 
 li{
@@ -26,3 +27,35 @@ a{
 }
 
 /*Cabeçalho*/
+
+header {
+    background-color: black;
+    padding: 18px 180px;
+    position: relative;
+}
+
+.spotify-logo {
+    display: inline-block;
+}
+
+.spotify-logo svg {
+    height: 42px;
+    fill: #fff;
+}
+
+header nav{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+header nav ul li{
+    color: #fff;
+    display: inline-block;
+    margin: auto 20px;
+    font-size: 15px;
+}
+
+header nav ul li:hover{
+    color: #05e854;
+}
