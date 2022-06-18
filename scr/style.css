@@ -1,0 +1,11 @@
+/* importando fonts */
+
+@font-face {
+    font-family: "Gotham";
+    src: url(../assets/fonts/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url(../assets/fonts/GothamLight.ttf);
+}
