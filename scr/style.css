@@ -211,3 +211,26 @@ footer {
 #footer-social {
     float: right;
 }
+
+#footer-social ul li{
+    display: inline-block;
+}
+.social-icon{
+    background-color: #222326;
+    border-radius: 50%;
+    padding: 12px;
+    margin-right: auto 6px;
+}
+
+.social-icon svg{
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    fill: #fff;
+}
+
+.social-icon svg:hover{
+    fill: #1cff03;
+}
+
+/**/
