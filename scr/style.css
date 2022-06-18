@@ -1,122 +1,139 @@
-/* importando fonts */
+                /* importando fonts */
 
 @font-face {
     font-family: "Gotham";
     src: url(../assets/fonts/GothamMedium.ttf);
 }
-
 @font-face {
     font-family: "Gotham Light";
     src: url(../assets/fonts/GothamLight.ttf);
 }
 
-/*Setando Configurações Globais*/
+                /*Setando Configurações Globais*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
     font-family: "gotham", sans-serif;
 }
-
 li{
     list-style: none;
 }
-
 a{
     text-decoration: none;
 }
-
 button{
     border-radius: 50px;
-        padding: 16px 32px 18px;
-        border: none;
-        text-transform: uppercase;
-        font-weight: 600px;
-        font-size: 14px;
+    padding: 16px 32px 18px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-size: 14px;
 }
-
 button:hover{
     cursor: pointer;
     transition: 0.2s;
     transform: scale(1.05);
 }
 
-/*Cabeçalho*/
+                /*Cabeçalho*/
 
 header {
     background-color: black;
     padding: 18px 180px;
     position: relative;
 }
-
 .spotify-logo {
     display: inline-block;
 }
-
 .spotify-logo svg {
     height: 42px;
     fill: #fff;
 }
-
 header nav{
     position: absolute;
     top: 40%;
     right: 10%;
 }
-
 header nav ul li{
     color: #fff;
     display: inline-block;
     margin: auto 20px;
     font-size: 15px;
 }
-
 header nav ul li:hover{
     color: #05D854;
-    }
-    
-    /*Conteúdo Principal*/
-    
-    /*Primeira Section*/
-    
-    #seja-premium {
-        background-color: #fbd2bd;
-        padding: 175px 80px;
-        text-align: center;
-    }
-    
-    #seja-premium h1,
-    #seja-premium button,
-    #seja-premium p {
-        margin-top: 35px;
-    }
-    
-    #seja-premium h1,
-    #seja-premium p {
-        color: #ff4d00;
-    }
-    
-    #seja-premium h1 {
-        font-size: 80px;
-    }
-    
-    #seja-premium button {
-        color: rgb(255, 255, 255);
-        background-color: #ff4d00;
-    
-        border-radius: 50px;
-        padding: 16px 32px 18px;
-        border: none;
-        text-transform: uppercase;
-        font-weight: 600px;
-        font-size: 14px;
+}
+
+                /*Conteúdo Principal*/
+
+                /*Primeira Section*/
+
+#seja-premium {
+    background-color: #fbd2bd;
+    padding: 175px 80px;
+    text-align: center;
+}
+#seja-premium h1,
+#seja-premium button,
+#seja-premium p {
+    margin-top: 35px;
+}
+#seja-premium h1,
+#seja-premium p {
+    color: #ff4d00;
+}
+#seja-premium h1 {
+    font-size: 80px;
+}
+#seja-premium button {
+    color: rgb(255, 255, 255);
+    background-color: #ff4d00;
+
+    border-radius: 50px;
+    padding: 16px 32px 18px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-size: 14px;
 }
 #seja-premium button:hover{
     background-color: #c63b00;
 }
-
 #seja-premium p{
     font-size: 12px;
     font-family: "gotham light", sans-serif;
     font-weight: bold;
 }
+
+                /*Segunda Section*/
+
+#web-player{
+    padding: 140px 180px;
+    background-color: #2a40a0;
+
+    background-image: url(../assets/images/web-player-background.svg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+#web-player h1, #web-player h2{
+    color: #1cff03;
+}
+#web-player h1{
+    font-size: 52px;
+}
+#web-player h2{
+    font-size: 22px;
+    font-family: "gotham light", sans-serif;
+}
+#web-player button{
+    color: #2a40a0;
+    background-color: #1cff03;
+}
+.mt-medium{
+    margin-top: 60px;
+}
+
+/*Footer*/
